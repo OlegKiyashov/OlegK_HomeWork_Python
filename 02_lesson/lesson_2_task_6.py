@@ -1,8 +1,7 @@
-
 lst = [11, 5, 8, 32, 15, 3, 20, 132, 21, 4, 555, 9, 20]
 
-def filter_list(numbers):
 
+def filter_list(numbers):
     # Функция для фильтрации списка чисел.
     # Возвращает список чисел, которые меньше 30 и делятся на 3 без остатка.
 
@@ -13,6 +12,7 @@ def filter_list(numbers):
             filtered_numbers.append(number)
 
     return filtered_numbers
+
 
 result = filter_list(lst)
 
