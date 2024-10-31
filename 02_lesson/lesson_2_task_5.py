@@ -1,7 +1,9 @@
-from calendar import month_name
-
 
 def month_to_season(month):
+#Функция, которая принимает номер месяца и возвращает название сезона.
+# Аргументы:month -- номер месяца (1-12)
+# Возвращает:Название сезона или сообщение об ошибке, если номер месяца некорректен.
+
     if month in [12, 1, 2]:
         return "Зима"
     elif month in [3, 4, 5]:
@@ -13,18 +15,9 @@ def month_to_season(month):
     else:
         return "Некорректный номер месяца"
 
-month_number = 2
-season = month_to_season(month_number)
-print(f"Месяц {month_number}: {season}")
+# Список месяцев для тестирования
+month_numbers = [2, 4, 6, 11, 13]
 
-month_number = 4
-season = month_to_season(month_number)
-print(f"Месяц {month_number}: {season}")
-
-month_number = 6
-season = month_to_season(month_number)
-print(f"Месяц {month_number}: {season}")
-
-month_number = 11
-season = month_to_season(month_number)
-print(f"Месяц {month_number}: {season}")
+for month_number in month_numbers:
+    season = month_to_season(month_number)
+    print(f"Месяц {month_number}: {season}")
