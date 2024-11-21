@@ -2,25 +2,34 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
-import time  # Импортируем модуль time для использования sleep()
+import time  # Для добавления задержек
 
-# Настройка браузера
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
-# Открытие страницы
-driver.get("http://uitestingplayground.com/dynamicid")
+# Функция для выполнения одного запуска
+def run_script():
+    # Настройка драйвера
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
-# Задержка 1 секунда перед кликом
-time.sleep(1)
+    # Шаг 1: Открыть страницу
+    driver.get("http://uitestingplayground.com/dynamicid")
 
-# Клик по кнопке
-driver.find_element(By.XPATH, "//button[contains(text(),'Button with Dynamic ID')]").click()
+    # Задержка для ожидания загрузки страницы
+    time.sleep(1)
 
-# Задержка 1 секунда после клика
-time.sleep(1)
+    # Шаг 2: Кликнуть на синюю кнопку
+    driver.find_element(By.XPATH, "//button[contains(text("
+                                  "),'Button with Dynamic ID')]").click()
 
-# Вывод сообщения
-print("Скрипт выполнен успешно")
+    # Шаг 3: Вывести сообщение в консоль
+    print("Клик по синей кнопке выполнен успешно")
 
-# Закрытие браузера
-driver.quit()
+    # Закрыть браузер
+    driver.quit()
+
+
+# Запуск скрипта 3 раза
+for i in range(3):
+    print(f"Запуск #{i + 1}")
+    run_script()
+    # Задержка между запусками (опционально)
+    time.sleep(1)

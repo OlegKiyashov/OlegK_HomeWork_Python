@@ -4,23 +4,35 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 import time  # Импортируем модуль time для добавления задержки
 
-# Настройка браузера
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
-# Открытие страницы
-driver.get("http://uitestingplayground.com/classattr")
+# Функция для выполнения одного запуска
+def run_script():
+    # Настройка браузера
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
-# Задержка 1 секунда перед выполнением клика
-time.sleep(1)
+    # Открытие страницы
+    driver.get("http://uitestingplayground.com/classattr")
 
-# Поиск кнопки с классом 'btn-primary' и клик по ней
-driver.find_element(By.XPATH, "//button[contains(@class,'btn-primary')]").click()
+    # Задержка 1 секунда перед выполнением клика
+    time.sleep(1)
 
-# Задержка 1 секунда после клика
-time.sleep(1)
+    # Поиск кнопки с классом 'btn-primary' и клик по ней
+    driver.find_element(By.XPATH,
+                        "//button[contains(@class,'btn-primary')]").click()
 
-# Вывод сообщения в консоль
-print("Клик по кнопке выполнен")
+    # Задержка 1 секунда после клика
+    time.sleep(1)
 
-# Закрытие браузера
-driver.quit()
+    # Вывод сообщения в консоль
+    print("Клик по кнопке выполнен")
+
+    # Закрытие браузера
+    driver.quit()
+
+
+# Запуск скрипта три раза
+for i in range(3):
+    print(f"Запуск #{i + 1}")
+    run_script()
+    # Задержка между запусками (опционально)
+    time.sleep(2)
