@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69804c8e-a50a-4437-88c5-7aba8b339be8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/lesson_01/lesson_1_task_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_01/lesson_1_task_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_01/lesson_1_task_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_01/lesson_1_task_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_01/lesson_1_task_5.py" beforeDir="false" />
+    <list default="true" id="69804c8e-a50a-4437-88c5-7aba8b339be8" name="Changes" comment="восстановление">
+      <change afterPath="$PROJECT_DIR$/06K_lesson/test_01_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06K_lesson/test_02_calc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06K_lesson/test_03_shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,72 +49,87 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_string_utils.test_capitalize.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_utils.test_capitalize_none.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_utils.test_capitilize.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_utils.test_delete_symbol.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_utils.test_list_to_string.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_utils.test_starts_with.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_utils.test_trim.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_utils.test_trim_empty_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_utils.test_trim_none.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_example.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_firefox.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_webdriver.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.address.executor&quot;: &quot;Run&quot;,
-    &quot;Python.book.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chrome1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chrome_add_elements.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chrome_class_attr.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chrome_class_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chrome_click_buttons.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chrome_dynamic_id.executor&quot;: &quot;Run&quot;,
-    &quot;Python.course_group.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.firefox_input_field.executor&quot;: &quot;Run&quot;,
-    &quot;Python.firefox_login_form.executor&quot;: &quot;Run&quot;,
-    &quot;Python.firefox_modal_window.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_1_task_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_3_task_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_3_task_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_3_task_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mailing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.my_name.executor&quot;: &quot;Run&quot;,
-    &quot;Python.press_the_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python.product.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rename_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python.smartphone.executor&quot;: &quot;Run&quot;,
-    &quot;Python.src_picture.executor&quot;: &quot;Run&quot;,
-    &quot;Python.string_utils.executor&quot;: &quot;Run&quot;,
-    &quot;Python.student.executor&quot;: &quot;Run&quot;,
-    &quot;Python.te.executor&quot;: &quot;Run&quot;,
-    &quot;Python.user.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests for test_string_utils.test_capitalize.executor": "Run",
+    "Python tests.Python tests for test_string_utils.test_capitalize_none.executor": "Run",
+    "Python tests.Python tests for test_string_utils.test_capitilize.executor": "Run",
+    "Python tests.Python tests for test_string_utils.test_delete_symbol.executor": "Run",
+    "Python tests.Python tests for test_string_utils.test_list_to_string.executor": "Run",
+    "Python tests.Python tests for test_string_utils.test_starts_with.executor": "Run",
+    "Python tests.Python tests for test_string_utils.test_trim.executor": "Run",
+    "Python tests.Python tests for test_string_utils.test_trim_empty_list.executor": "Run",
+    "Python tests.Python tests for test_string_utils.test_trim_none.executor": "Run",
+    "Python tests.Python tests in 1.py.executor": "Run",
+    "Python tests.Python tests in 2.py.executor": "Run",
+    "Python tests.Python tests in 222.py.executor": "Run",
+    "Python tests.Python tests in 3.py.executor": "Run",
+    "Python tests.Python tests in 4.py.executor": "Run",
+    "Python tests.Python tests in rr.py.executor": "Run",
+    "Python tests.Python tests in test_01_form.py.executor": "Run",
+    "Python tests.Python tests in test_02_calc.py.executor": "Run",
+    "Python tests.Python tests in test_03_shop.py.executor": "Run",
+    "Python tests.Python tests in test_example.py.executor": "Run",
+    "Python tests.Python tests in test_firefox.py.executor": "Run",
+    "Python tests.Python tests in test_webdriver.py.executor": "Run",
+    "Python tests.Python tests in нн.py.executor": "Run",
+    "Python tests.Python tests in рр.py.executor": "Run",
+    "Python tests.Python tests in сс.py.executor": "Run",
+    "Python tests.Python tests in фф.py.executor": "Run",
+    "Python.address.executor": "Run",
+    "Python.book.executor": "Run",
+    "Python.chrome1.executor": "Run",
+    "Python.chrome_add_elements.executor": "Run",
+    "Python.chrome_class_attr.executor": "Run",
+    "Python.chrome_class_button.executor": "Run",
+    "Python.chrome_click_buttons.executor": "Run",
+    "Python.chrome_dynamic_id.executor": "Run",
+    "Python.course_group.executor": "Run",
+    "Python.ex1.executor": "Run",
+    "Python.ex2.executor": "Run",
+    "Python.ex3.executor": "Run",
+    "Python.firefox_input_field.executor": "Run",
+    "Python.firefox_login_form.executor": "Run",
+    "Python.firefox_modal_window.executor": "Run",
+    "Python.lesson_1_task_1.executor": "Run",
+    "Python.lesson_2_task_1.executor": "Run",
+    "Python.lesson_2_task_2.executor": "Run",
+    "Python.lesson_2_task_3.executor": "Run",
+    "Python.lesson_2_task_4.executor": "Run",
+    "Python.lesson_2_task_5.executor": "Run",
+    "Python.lesson_2_task_6.executor": "Run",
+    "Python.lesson_2_task_7.executor": "Run",
+    "Python.lesson_3_task_1.executor": "Run",
+    "Python.lesson_3_task_2.executor": "Run",
+    "Python.lesson_3_task_3.executor": "Run",
+    "Python.mailing.executor": "Run",
+    "Python.my_name.executor": "Run",
+    "Python.press_the_button.executor": "Run",
+    "Python.product.executor": "Run",
+    "Python.rename_button.executor": "Run",
+    "Python.smartphone.executor": "Run",
+    "Python.src_picture.executor": "Run",
+    "Python.string_utils.executor": "Run",
+    "Python.student.executor": "Run",
+    "Python.te.executor": "Run",
+    "Python.test_02_calc.executor": "Run",
+    "Python.user.executor": "Run",
+    "Python.нн.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "lesson6K",
+    "settings.editor.selected.configurable": "settings.sync"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.rename_button">
-    <configuration name="firefox_modal_window" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OlegK_HomeWork_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,11 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_lesson" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06K_lesson" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_lesson/firefox_modal_window.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06K_lesson/4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,101 +151,88 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="press_the_button" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in 4.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="OlegK_HomeWork_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_lesson" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06K_lesson" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_lesson/press_the_button.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/06K_lesson/4.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="rename_button" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in фф.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="OlegK_HomeWork_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_lesson" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06K_lesson" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_lesson/rename_button.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/06K_lesson/фф.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="src_picture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_01_form.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="OlegK_HomeWork_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_lesson" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06K_lesson" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_lesson/src_picture.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/06K_lesson/test_01_form.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="te" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_02_calc.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="OlegK_HomeWork_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_lesson" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06K_lesson" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_lesson/te.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/06K_lesson/test_02_calc.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_03_shop.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="OlegK_HomeWork_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06K_lesson" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/06K_lesson/test_03_shop.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rename_button" />
-        <item itemvalue="Python.src_picture" />
-        <item itemvalue="Python.press_the_button" />
-        <item itemvalue="Python.te" />
-        <item itemvalue="Python.firefox_modal_window" />
+        <item itemvalue="Python tests.Python tests in test_02_calc.py" />
+        <item itemvalue="Python tests.Python tests in 4.py" />
+        <item itemvalue="Python tests.Python tests in test_03_shop.py" />
+        <item itemvalue="Python tests.Python tests in test_01_form.py" />
+        <item itemvalue="Python.4" />
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +252,15 @@
       <option name="presentableId" value="Default" />
       <updated>1730023180771</updated>
     </task>
+    <task id="LOCAL-00001" summary="восстановление">
+      <option name="closed" value="true" />
+      <created>1733205897690</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733205897690</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,5 +285,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="восстановление" />
+    <option name="LAST_COMMIT_MESSAGE" value="восстановление" />
   </component>
 </project>
