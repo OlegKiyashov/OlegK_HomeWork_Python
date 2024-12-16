@@ -4,7 +4,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from shop_page import ShopPage
 
 
-def test_shop_checkout():
+def test_shop():
     # Инициализация драйвера
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager(
 
@@ -48,4 +48,4 @@ def test_shop_checkout():
 
 
 if __name__ == "__main__":
-    test_shop_checkout()
+    test_shop()

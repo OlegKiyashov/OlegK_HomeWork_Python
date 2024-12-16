@@ -5,7 +5,7 @@ from calc_page import CalcPage
 
 
 def test_calc():
-    # Создаем драйвер
+    # Инициализация драйвера
     driver = webdriver.Chrome(service=ChromeService
                               (ChromeDriverManager().install()))
     calc = CalcPage(driver)
