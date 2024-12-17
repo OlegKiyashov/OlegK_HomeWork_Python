@@ -1,10 +1,5 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service as ChromeService
-from webdriver_manager.chrome import ChromeDriverManager
 from pages.shop_page import ShopPage
 
-
-from pages.shop_page import ShopPage
 
 def test_shop(browser):
     shop = ShopPage(browser)
