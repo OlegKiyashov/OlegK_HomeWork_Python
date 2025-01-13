@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Проверяем отображение ошибок валидации формы.","6248","Тест валидации формы","tests","Fri Jan 10 04:44:18 ICT 2025","passed","Fri Jan 10 04:44:24 ICT 2025","","test_form","",""
+"Проверяем процесс покупки товаров от добавления в корзину до оформления заказа.","3445","Тест оформления заказа","tests","Fri Jan 10 04:44:24 ICT 2025","passed","Fri Jan 10 04:44:27 ICT 2025","","test_shop","",""
+"Проверяем работу калькулятора с задержкой.","47055","Тест работы калькулятора","tests","Fri Jan 10 04:43:31 ICT 2025","passed","Fri Jan 10 04:44:18 ICT 2025","","test_calc","",""
